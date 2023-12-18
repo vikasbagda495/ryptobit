@@ -1,0 +1,147 @@
+.main-slider {
+    // overflow: hidden;
+    width: 100%;
+
+}
+
+.black-bg {
+    width: 100%;
+}
+
+.all-pannel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    position: relative;
+
+
+    .left-pannel {
+        h1 {
+            color: var(--white);
+            font-size: 55px;
+            width: 70%;
+            line-height: 80px;
+        }
+
+        .shape {
+            position: relative;
+
+            h2 {
+                font-size: 40px;
+                color: var(--brand-yellow);
+                margin-top: 20px;
+            }
+
+            .shape-round {
+                position: absolute;
+                top: -10px;
+                left: -50px;
+
+                img {
+                    width: 70%;
+                }
+
+            }
+
+
+        }
+
+
+        p {
+            font-size: 14px;
+            color: var(--brand-gray);
+            margin: 30px 0;
+            line-height: 30px;
+            width: 54%;
+        }
+
+        .btn-slider {
+            background: var(--brand-yellow);
+            padding: 15px 40px;
+            border-radius: 5px;
+            position: relative;
+            overflow: hidden;
+            transition: 0.9s ease all;
+            display: inline-block;
+
+            a {
+                color: var(--brand-primary);
+                transition: 0.5s ease all;
+                padding: 30px 0;
+
+            }
+
+            &:hover {
+                background: var(--brand-circle);
+
+                &:hover a {
+                    color: var(--black);
+
+                }
+
+            }
+
+
+        }
+
+
+    }
+
+
+    .circle-one {
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+        position: absolute;
+        background: var(--brand-circle);
+        right: -8px;
+        bottom: -9px;
+    }
+
+
+
+
+    .imgshape {
+        position: absolute;
+        top: 50px;
+        left: 600px;
+        -webkit-animation: spin 8s linear infinite;
+        -moz-animation: spin 8s linear infinite;
+        animation: spin 8s linear infinite;
+
+    }
+
+    .imgshape-one {
+        position: absolute;
+        top: 180px;
+        left: -70px;
+        -webkit-animation: spin 8s linear infinite;
+        -moz-animation: spin 8s linear infinite;
+        animation: spin 8s linear infinite;
+
+    }
+
+    .imgshape-two {
+        position: absolute;
+        top: 420px;
+        left: -70px;
+        -webkit-animation: spin 8s linear infinite;
+        -moz-animation: spin 8s linear infinite;
+        animation: spin 8s linear infinite;
+
+    }
+
+
+
+
+
+    @-webkit-keyframes spin {
+
+        100% {
+            -webkit-transform: rotate(360deg)
+        }
+
+        ;
+    }
+}

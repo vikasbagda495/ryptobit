@@ -1,0 +1,172 @@
+.testimonal {
+    background: var(--brand-second-primary);
+    padding: 50px 0;
+
+    .testimonal-heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .left-heading {
+            span {
+                color: var(--brand-yellow);
+                font-size: 16px;
+
+            }
+
+            h2 {
+                font-size: 40px;
+                font-weight: 700;
+                color: var(--white);
+                margin: 10px 0;
+                width: 70%;
+                line-height: 50px;
+
+
+            }
+
+        }
+
+        .right-heading {
+            .button-testimonal {
+                position: relative;
+                display: inline-block;
+                overflow: hidden;
+
+                a {
+                    background: var(--brand-yellow);
+                    padding: 15px 30px;
+                    font-size: 16px;
+                    font-weight: 500;
+                    border-radius: 5px;
+                    color: var(--black);
+                    display: inline-block;
+                    transition: 0.9s ease all;
+
+                    &:hover {
+                        background: var(--brand-circle);
+                    }
+                }
+
+                .circle-one {
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50px;
+                    position: absolute;
+                    background: var(--brand-circle);
+                    right: -8px;
+                    bottom: -9px;
+                }
+
+            }
+        }
+    }
+
+    .testimonal-all {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 50px 0;
+
+        .left-testimonal {
+
+            position: relative;
+
+
+
+
+        }
+
+        .wrapper-heading {
+            position: absolute;
+            top: 96px;
+            left: 44px;
+            text-align: center;
+
+            h2 {
+                font-size: 40px;
+                color: var(--white);
+
+                span {
+                    color: var(--brand-yellow);
+                }
+            }
+
+            p {
+                font-size: 16px;
+                width: 83%;
+                color: var(--brand-gray);
+                margin: 10px 0;
+            }
+        }
+
+        .right-testimonal {
+            margin-left: 20px;
+            position: relative;
+
+            .man-all {
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                position: relative;
+
+                .left-man {
+                    margin: 0 50px;
+
+                    p {
+                        font-size: 16px;
+                        color: var(--brand-gray);
+                        line-height: 30px;
+                        font-style: italic;
+                        width: 94%;
+                        margin: 10px 0;
+
+                    }
+                    img{
+                        border-radius: 50px;
+                        width: 74px;
+                    }
+
+                }
+
+                .right-man {
+                    position: absolute;
+                    left: 150px;
+                    top: 5px;
+
+                    h3 {
+                        font-size: 20px;
+                        color: var(--white);
+                        margin: 5px 0;
+                    }
+
+                    span {
+                        font-size: 14px;
+                        font-weight: normal;
+                        color: var(--brand-gray);
+                        margin-left: 10px;
+                    }
+                    p{
+                        font-size: 16px;
+                        color: var(--brand-gray);
+                        margin: 10px 0;
+                    }
+                }
+            }
+
+            .quote {
+                position: absolute;
+                right: 0;
+                top: 15px;
+
+            }
+
+            .star {
+                position: absolute;
+                left: 270px;
+                top: 15px;
+
+            }
+        }
+    }
+}

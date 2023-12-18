@@ -1,0 +1,121 @@
+.bit {
+  background: var(--brand-bg);
+  padding: 50px 0;
+}
+.bit .all-line {
+  text-align: center;
+  padding: 30px 0;
+}
+.bit .all-line p {
+  font-size: 16px;
+  color: var(--brand-gray);
+  width: 45%;
+  line-height: 30px;
+  margin: auto;
+}
+.bit .all-line h2 {
+  font-size: 35px;
+  color: var(--white);
+  margin: 10px auto;
+  width: 42%;
+  line-height: 45px;
+}
+.bit .all-line span {
+  font-size: 16px;
+  color: var(--brand-yellow);
+}
+.bit ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 50px 0;
+}
+.bit ul li {
+  text-align: center;
+  margin: auto;
+  position: relative;
+}
+.bit ul li .img-bitcoin {
+  background: var(--brand-gray-light);
+  padding: 30px;
+  border-radius: 5px;
+  width: 80%;
+  margin: auto;
+}
+.bit ul li .img-bitcoin img {
+  width: 100%;
+}
+.bit ul li h3 {
+  color: var(--white);
+  margin: 10px 0;
+  font-size: 20px;
+}
+.bit ul li p {
+  color: var(--brand-gray);
+  width: 80%;
+  font-size: 16px;
+  line-height: 30px;
+  margin: auto;
+}
+.bit ul li .one {
+  position: absolute;
+  top: -15px;
+  right: 170px;
+  color: var(--white);
+  background: var(--brand-light-black);
+  padding: 10px 15px;
+  border-radius: 5px;
+  -webkit-transition: 0.9s ease all;
+  transition: 0.9s ease all;
+}
+.bit ul li .two {
+  position: absolute;
+  top: -15px;
+  right: 170px;
+  color: var(--white);
+  background: var(--brand-light-black);
+  padding: 10px 15px;
+  border-radius: 5px;
+  -webkit-transition: 0.9s ease all;
+  transition: 0.9s ease all;
+}
+.bit ul li .three {
+  position: absolute;
+  top: -15px;
+  right: 170px;
+  color: var(--white);
+  background: var(--brand-light-black);
+  padding: 10px 15px;
+  border-radius: 5px;
+  -webkit-transition: 0.9s ease all;
+  transition: 0.9s ease all;
+}
+.bit ul li .four {
+  position: absolute;
+  top: -15px;
+  right: 170px;
+  color: var(--white);
+  background: var(--brand-light-black);
+  padding: 10px 15px;
+  border-radius: 5px;
+  -webkit-transition: 0.9s ease all;
+  transition: 0.9s ease all;
+}
+.bit ul li:hover .one {
+  background: var(--brand-yellow);
+}
+.bit ul li:hover .two {
+  background: var(--brand-yellow);
+}
+.bit ul li:hover .three {
+  background: var(--brand-yellow);
+}
+.bit ul li:hover .four {
+  background: var(--brand-yellow);
+}

@@ -1,0 +1,109 @@
+.record {
+    background: var(--brand-bg);
+    padding: 100px 0;
+
+    .all-record {
+        display: flex;
+        align-items: top;
+        justify-content: space-between;
+
+        .left-record {
+            margin-right: 100px;
+            width: 100%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .right-record {
+
+            span {
+                font-size: 18px;
+                color: var(--brand-yellow);
+
+            }
+
+            h2 {
+                font-size: 40px;
+                color: var(--white);
+                line-height: 50px;
+                width: 80%;
+                margin: 20px 0;
+            }
+
+            p {
+                font-size: 16px;
+                color: var(--brand-gray);
+                line-height: 30px;
+
+                width: 84%;
+            }
+
+            ul {
+                display: flex;
+                flex-wrap: wrap;
+                margin: 20px 0;
+
+                li {
+                    background: var(--brand-gray-shades);
+
+                    width: calc(40% - 20px);
+                    padding: 15px;
+                    margin: 10px 20px 10px 0;
+                    border-radius: 5px;
+
+                    .four-card {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        h3 {
+                            color: var(--white);
+                            margin: 0 14px;
+
+                        }
+                    }
+                }
+            }
+        }
+
+        .button-record {
+            background: var(--brand-yellow);
+            display: inline-block;
+            position: relative;
+            overflow: hidden;
+            border-radius: 5px;
+         
+ 
+          
+
+            a {
+                background: var(--brand-yellow);
+                padding: 15px 30px;
+                font-size: 16px;
+                font-weight: 500;
+            
+                color: var(--black);
+                display: inline-block;
+                transition: 0.9s ease all;
+
+
+
+                &:hover {
+                    background: var(--brand-circle);
+                }
+                
+            }
+            .circle-one {
+                width: 30px;
+                height: 30px;
+                border-radius: 50px;
+                position: absolute;
+                background: var(--brand-circle);
+                right: -8px;
+                bottom: -9px;
+            }
+        }
+    }
+}

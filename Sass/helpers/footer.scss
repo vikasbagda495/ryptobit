@@ -1,0 +1,110 @@
+footer {
+    background: var(--brand-bg);
+    padding: 100px 0;
+
+    .all-footer {
+        display: flex;
+        align-items: top;
+
+
+        .left-footer {
+            p {
+                color: var(--white);
+                font-size: 16px;
+                width: 42%;
+                line-height: 30px;
+                margin: 20px 0;
+            }
+
+            .icons {
+                a {
+                    vertical-align: middle;
+                    margin: 0 5px;
+                }
+            }
+        }
+
+        .right-footer {
+            ul {
+                display: flex;
+                align-items: top;
+
+                li {
+                    width: calc(30% - 20px);
+                    margin: 0 20px;
+
+
+                    h2 {
+
+                        font-size: 20px;
+                        color: var(--white);
+                    }
+
+                    .down-heading {
+                        margin: 20px 0;
+
+                        h3 {
+                            font-size: 18px;
+                            color: var(--white);
+                            font-weight: normal;
+                            margin: 20px 0;
+                            transition: 0.9s ease all;
+
+                            &:hover {
+                                color: var(--brand-yellow);
+                                cursor: pointer;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+    .border {
+        border: 1px solid var(--brand-border);
+        margin: 40px 0;
+    }
+
+    .footer-bootom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .left {
+            h3 {
+                font-size: 20px;
+                color: var(--white);
+                font-weight: 400;
+
+                span {
+                    color: var(--brand-yellow);
+                }
+            }
+
+        }
+
+        .center {
+            h3 {
+                font-size: 20px;
+                color: var(--white);
+                font-weight: 400;
+
+
+            }
+
+
+
+
+        }
+
+        h3 {
+            font-size: 20px;
+            color: var(--white);
+            font-weight: 400;
+
+
+        }
+    }
+}

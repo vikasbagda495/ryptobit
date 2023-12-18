@@ -1,0 +1,141 @@
+.blockchain {
+    background: var(--brand-second-primary);
+    padding: 50px 0;
+
+    .all-line {
+        text-align: center;
+        padding: 30px 0;
+
+        p {
+            font-size: 16px;
+            color: var(--brand-gray);
+            width: 45%;
+            line-height: 30px;
+            margin: auto;
+
+        }
+
+        h2 {
+            font-size: 35px;
+            color: var(--white);
+            margin: 10px auto;
+            width: 42%;
+            line-height: 45px;
+
+        }
+
+        span {
+            font-size: 16px;
+            color: var(--brand-yellow);
+
+        }
+    }
+
+    .coin {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: var(--brand-gray-light);
+        padding: 50px;
+        margin: 50px 0;
+        border-radius: 5px;
+        position: relative;
+
+        h2 {
+            font-size: 35px;
+            color: var(--white);
+
+            width: 63%;
+            line-height: 50px;
+
+        }
+
+        p {
+            font-size: 16px;
+            color: var(--brand-gray);
+            width: 70%;
+            line-height: 30px;
+            margin: 20px 0;
+
+
+        }
+
+        .button-coin {
+            position: relative;
+            display: inline-block;
+            overflow: hidden;
+
+            a {
+                background: var(--brand-yellow);
+                padding: 15px 30px;
+                font-size: 16px;
+                font-weight: 500;
+                border-radius: 5px;
+                color: var(--black);
+                display: inline-block;
+                transition: 0.9s ease all;
+
+                &:hover {
+                    background: var(--brand-circle);
+                }
+            }
+
+            .circle-one {
+                width: 30px;
+                height: 30px;
+                border-radius: 50px;
+                position: absolute;
+                background: var(--brand-circle);
+                right: -8px;
+                bottom: -9px;
+            }
+
+        }
+
+        .imgshape {
+            position: absolute;
+            top: 200px;
+            left: 600px;
+            -webkit-animation: spin 8s linear infinite;
+            -moz-animation: spin 8s linear infinite;
+            animation: spin 8s linear infinite;
+
+        }
+
+        .imgshape-one {
+            position: absolute;
+            bottom: 188px;
+            right: 700px;
+            -webkit-animation: spin 8s linear infinite;
+            -moz-animation: spin 8s linear infinite;
+            animation: spin 8s linear infinite;
+
+        }
+
+        .imgshape-last {
+            position: absolute;
+            top: 232px;
+            right: 151px;
+            -webkit-animation: spin 8s linear infinite;
+            -moz-animation: spin 8s linear infinite;
+            animation: spin 8s linear infinite;
+
+        }
+
+        @-webkit-keyframes spin {
+
+            100% {
+                -webkit-transform: rotate(360deg)
+            }
+
+            ;
+        }
+
+        .black-bg {
+            position: absolute;
+            top: 0;
+        }
+
+
+    }
+}

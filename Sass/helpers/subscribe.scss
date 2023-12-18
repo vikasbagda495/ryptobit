@@ -1,0 +1,68 @@
+.subscribe {
+    background: var(--brand-second-primary);
+    padding: 50px 0;
+
+    .all-line {
+        text-align: center;
+        padding: 30px 0;
+
+        p {
+            font-size: 16px;
+            color: var(--brand-gray);
+            width: 50%;
+            line-height: 30px;
+            margin: auto;
+
+        }
+
+        h2 {
+            font-size: 35px;
+            color: var(--white);
+            margin: 20px auto;
+
+            line-height: 45px;
+
+        }
+
+        span {
+            font-size: 16px;
+            color: var(--brand-yellow);
+
+        }
+    }
+
+    .email {
+
+        position: relative;
+        text-align: center;
+        margin: 50px 0;
+
+        input {
+
+            width: 50%;
+            border-radius: 50px;
+            height: 50px;
+            border: none;
+            padding: 30px 20px;
+
+        }
+
+        .subscribe-button {
+            background: var(--brand-yellow);
+            display: inline-block;
+            padding: 15px 30px;
+            border-radius: 30px;
+            position: absolute;
+            right: 354px;
+            top: 5px;
+
+            a {
+                font-size: 16px;
+                font-weight: 400;
+                color: var(--brand-second-primary);
+            }
+        }
+
+    }
+
+}

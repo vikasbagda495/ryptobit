@@ -1,0 +1,91 @@
+// Width and Height 
+@mixin size($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+// Z-index
+@mixin z-index($value) {
+  z-index: $value
+}
+
+// Margin
+@mixin margin($margin) {
+  margin: $margin;
+}
+
+// Padding
+@mixin padding($padding) {
+  padding: $padding;
+}
+
+// Background-Position
+@mixin bg-position($bg-position:0 0) {
+  background-position: $bg-position
+}
+
+// Top
+@mixin top($top) {
+  top: $top;
+}
+
+// Right
+@mixin right($right) {
+  right: $right;
+}
+
+// Bottom
+@mixin bottom($bottom) {
+  bottom: $bottom;
+}
+
+// Left
+@mixin left($left) {
+  left: $left;
+}
+// font size
+@mixin font-size($font-size) {
+  font-size: $font-size;
+}
+
+// line-height
+@mixin line-height($line-height) {
+  line-height: $line-height;
+}
+
+
+
+// Border
+@mixin border($border:1px solid $black-opacity-54) {
+  border: $border
+}
+
+// Border-Bottom
+@mixin border-bottom($border:1px solid $black-opacity-54) {
+  border-bottom: $border
+}
+
+// Border-Top
+@mixin border-top($border:1px solid $black-opacity-54) {
+  border-top: $border
+}
+
+// Border-Right
+@mixin border-right($border:1px solid $black-opacity-54) {
+  border-right: $border
+}
+
+// Border-Left
+@mixin border-left($border:1px solid $black-opacity-54) {
+  border-left: $border
+}
+
+// Min-Width
+@mixin min-width($minwidth) {
+  min-width: $minwidth;
+}
+
+// Min-Height
+@mixin min-height($minheight) {
+  min-height: $minheight;
+}

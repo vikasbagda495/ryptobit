@@ -1,0 +1,496 @@
+/* Media css */
+
+@media screen and (max-width:767px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .black-bg {
+
+        .black-logo {
+            display: block;
+            background: var(--white);
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .header .container {
+            padding: 0;
+
+
+            .menu {
+                background: var(--brand-yellow);
+                padding: 15px;
+
+                .logo-heading {
+                    h3 {
+                        font-size: 20px;
+                        color: var(--white);
+                        display: block;
+                    }
+
+                }
+
+                .humburger-icon {
+                    display: block;
+                }
+
+                .logo {
+                    display: none;
+
+
+                }
+
+                .navbar {
+                    position: absolute;
+                    left: 0;
+                    top: 130px;
+
+                    background: var(--white);
+                    width: 100%;
+                    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+                    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+
+                    z-index: 99;
+                    display: none;
+
+                    ul {
+                        -webkit-box-align: start;
+                        -ms-flex-align: start;
+                        align-items: start;
+                        -webkit-box-orient: vertical;
+                        -webkit-box-direction: normal;
+                        -ms-flex-direction: column;
+                        flex-direction: column;
+
+                        li {
+                            border-bottom: 1px solid#ddd;
+                            width: 100%;
+                            margin: 10px 0;
+                            &:last-child{
+                                width: 35%;
+                                border: none;
+                                margin-top: 10px;
+                                margin-bottom: 0;
+                            }
+                            ul{
+                            display: none;
+                            }
+
+                            a {
+                                color: var(--black);
+                                padding: 0;
+                                margin: 0;
+                                display: inline-block;
+                            }
+
+                            img {
+                                margin-left: 315px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .all-pannel {
+            display: block;
+
+            .left-pannel {
+                padding: 50px 0;
+
+                h1 {
+                    font-size: 36px;
+                    width: 100%;
+                    line-height: 48px;
+                }
+
+                h2 {
+                    font-size: 30px;
+                }
+
+                .shape-round {
+                    left: 0;
+                }
+
+                p {
+                    width: 64%;
+                }
+
+                .button {
+                    a {
+                        padding: 15px 20px;
+                        font-size: 14px;
+                    }
+                }
+            }
+
+            .right-pannel {
+                width: 100%;
+                margin: 30px 0;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .imgshape {
+            display: none;
+        }
+
+    }
+
+
+
+    .features {
+
+
+        .all-line {
+
+
+
+            h2 {
+                font-size: 28px;
+
+
+                width: 100%;
+                line-height: 40px;
+
+            }
+        }
+
+        ul {
+            display: block;
+
+            li {
+                width: 100%;
+                margin: 20px 0;
+            }
+        }
+    }
+
+    .record {
+        .all-record {
+            display: block;
+
+            .right-record {
+                margin: 30px 0;
+
+                h2 {
+                    font-size: 30px;
+                    line-height: 45px;
+                    width: 100%;
+                }
+
+                p {
+                    width: 88%;
+                }
+
+                ul {
+                    display: block;
+
+                    li {
+                        width: 100%;
+                        margin: 20px 0;
+
+                        .four-card {
+                            justify-content: start;
+                        }
+                    }
+                }
+
+                .button-record {
+                    margin: 30px 0;
+                }
+
+            }
+        }
+
+    }
+
+    .blockchain {
+        .all-line {
+            h2 {
+                font-size: 28px;
+
+                width: 100%;
+                line-height: 45px;
+            }
+
+            p {
+                width: 100%;
+            }
+        }
+
+        .coin {
+            display: block;
+
+            .left-coin {
+
+                h2 {
+                    width: 100%;
+                    line-height: 40px;
+                    font-size: 28px;
+                }
+
+                p {
+                    width: 100%;
+                }
+
+                .button-coin {
+                    margin: 20px 0;
+                }
+            }
+
+            .right-coin {
+                width: 100%;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .imgshape-last {
+                display: none;
+            }
+        }
+
+        .imgshape {
+            display: none;
+        }
+    }
+
+    .bit {
+        .all-line {
+            h2 {
+                font-size: 28px;
+
+                width: 100%;
+                line-height: 45px;
+            }
+
+            p {
+                width: 100%;
+            }
+        }
+
+
+        ul {
+            display: block;
+
+            li {
+                width: 100%;
+                margin: 40px 0;
+
+                .img-bitcoin {
+                    width: 70%;
+                    margin: auto;
+
+                    img {
+                        padding: 30px;
+                    }
+                }
+
+                p {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+
+
+    .testimonal {
+        .testimonal-heading {
+            display: block;
+
+            .left-heading {
+                h2 {
+                    width: 100%;
+                    font-size: 28px;
+                    line-height: 45px;
+
+                }
+            }
+
+            .right-heading {
+                .button-testimonal {
+                    margin: 20px 0;
+                }
+            }
+        }
+
+        .testimonal-all {
+            display: block;
+
+            .left-testimonal {
+                width: 100%;
+
+                .wrapper {
+                    width: 100%;
+                    margin: auto;
+
+                }
+
+            }
+
+            .right-testimonal {
+                margin: 50px 0;
+
+                .man-all {
+                    display: block;
+
+                    .left-man {
+                        margin: 0;
+
+                        p {
+                            margin: 100px 0;
+                        }
+
+                    }
+
+                    .right-man {
+                        left: 0px;
+                        top: 80px;
+
+                    }
+
+                }
+
+                .star {
+                    left: 142px;
+                    top: 88px;
+                }
+
+                .quote {
+                    right: 18px;
+                }
+            }
+
+        }
+
+
+    }
+
+    .fq {
+        .all-fq {
+            display: block;
+
+            .left-fq {
+                h2 {
+                    width: 100%;
+                    font-size: 28px;
+                    line-height: 45px;
+                }
+
+                p {
+                    width: 85%;
+                }
+
+                ul {
+                    margin: 20px 0;
+
+                    li {
+                        width: 100%;
+                        margin: 20px 0;
+                    }
+                }
+            }
+
+            .right-fq {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .subscribe {
+        .all-line {
+            h2 {
+                font-size: 28px;
+
+                width: 100%;
+                line-height: 45px;
+            }
+
+            p {
+                width: 100%;
+            }
+        }
+
+        .email {
+            input {
+                width: 100%;
+            }
+
+            .subscribe-button {
+                right: 10px;
+            }
+        }
+
+    }
+
+    footer {
+        .all-footer {
+            display: block;
+
+            .left-footer {
+
+
+                p {
+
+                    width: 75%;
+
+                }
+
+                .icons {
+                    margin: 20px 0;
+                }
+            }
+
+            .right-footer {
+                ul {
+                    display: block;
+
+                    li {
+                        width: 100%;
+                        margin: 50px 0;
+                    }
+                }
+            }
+        }
+
+        .footer-bootom {
+            display: block;
+            margin-bottom: 500px;
+
+            .left {
+                h3 {
+                    font-size: 18px;
+
+                }
+
+            }
+
+            .right {
+                .paypal {
+                    padding: 20px;
+
+                    img {
+                        width: 90%;
+                    }
+                }
+            }
+
+            .center {
+                h3 {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
